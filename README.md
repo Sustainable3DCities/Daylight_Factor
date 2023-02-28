@@ -34,7 +34,7 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 
 ## Workflow:
 
-<img src="img//df_gh_flowchart.png"></img>
+<img src="img//DF_gh_flowchart.png"></img>
 
 <br>
 <br>
