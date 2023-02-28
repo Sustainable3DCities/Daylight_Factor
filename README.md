@@ -19,7 +19,7 @@ The DF is used in many official daylight-regulating documents as it is easy to c
 
 <br>
 
-<p align="center"><img src="img//Median_DF.png" width=70%></img></p>
+<p align="center"><img src="img//Median_DF.png" width=50%></img></p>
 
 <br>
 
