@@ -59,7 +59,8 @@ The process depicted in this workflow computes the mean & median Daylight Factor
 <ins><b>Step 18:</ins></b> Add a *DeGrid* module to obtain the Sensor Areas of every grid. If we sum up all the sensor areas we get the total floor area of the room. <br><br> 
 <ins><b>Step 19:</ins></b> Add a *Cull* module and use the list of sensor points whose DF<1% and the list of sensor area per gridpoint as input to filter out the sensor areas of the gridpoints whose DF<1%. <br><br> 
 <ins><b>Step 20:</ins></b> Add a *MassAddition* module to sum uo the sensor areas of all gridpoints whose DF>=1%. <br><br> 
-<ins><b>Step 21:</ins></b> Add an *Area* module to compute the total floor area in m$_2$
+<ins><b>Step 21:</ins></b> Add an *Area* module to compute the total floor area in m<sup>2</sup>.  <br><br>
+<ins><b>Step 22:</ins></b> Add a *Division* and a *Multiplication* module to compute the percentage floor area of the room that complies to the DF>=1% requirement. <br><br>
 
 <img src="img//DF_gh_flowchart.png"></img>
 
@@ -68,9 +69,9 @@ The process depicted in this workflow computes the mean & median Daylight Factor
 
 
 ## Output:
-The computed Daylight Factor for every point in the grid is stored in 
+The computed Daylight Factor for every point in the grid is presented in the Rhino environment as a visual output while the corresponding mean and median DF-values along with the percentage of the room's floor area complying to the DF>=1% requirement are exported to a panel inside the Rhino Grasshopper environment.
 
-<p align="center"><img src="img//OA_tool_output.png" width=70%></img></p>
+<p align="center"><img src="img//DF_output.PNG" width=70%></img></p>
 
 <br>
 <br>
