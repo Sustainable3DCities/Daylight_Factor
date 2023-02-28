@@ -23,7 +23,7 @@ The DF is used in many official daylight-regulating documents as it is easy to c
 
 <br>
 
-DFp has been shown to correlate strongly with the DFmedian across the room area, which indicates that complying with this criterion is equivalent to achieving a DFmedian of 1% over 50% of the room area (Bournas, 2020). European recommendations regarding appropriate internal illuminance levels have been found to be equivalent to a DFmedian of 2.1%  (Mardaljevic & Christoffersen, 2013)
+DF has been found to correlate strongly with the DF<sub>median</sub> across the room area, which indicates that complying with DF>=1% criterion is equivalent to achieving a DF<sub>median</sub> of 1% over 50% of the room area (Bournas, 2020). European recommendations on suitable illuminance levels in building interiors have proven to be equivalent to a DF<sub>median</sub> of 2.1%  (Mardaljevic & Christoffersen, 2013).
 
 <br>
 <br>
@@ -92,7 +92,24 @@ The computed Daylight Factor for every point in the grid is presented in the Rhi
 
 
 ## References:
+Bournas, I. (2020). Daylight compliance of residential spaces: Comparison of different performance criteria and association with room geometry and urban density. Building and Environment, 185, 107276. https://doi.org/10.1016/j.buildenv.2020.107276
+
+<br>
+
+Bournas, I., & Dubois, M. C. (2018). Daylight utilization in buildings: Analysis of existing conditions and development of improved rules and metrics. Swedish Energy Agency, Stockholm.
+
+<br>
+
 Dubois, M-C., Gentile, N., Laike, T., Bournas, I., & Alenius, M. (2019). Daylighting and lighting under a Nordic sky. (First ed.) Studentlitteratur AB. 
+
+<br>
+
+Mardaljevic, J., Christoffersen, J., Raynham, P. (2013). A proposal for a European
+standard for daylight in buildings. In: Proc. Int. Conf. Lux Europa, pp. 237–250
+
+<br>
+
+Mardaljevic, J., & Christoffersen, J. (2017). ‘Climate connectivity’ in the daylight factor basis of building standards. Building and Environment, 113, 200–209. https://doi.org/10.1016/j.buildenv.2016.08.009 
 
 <br>
 <br>
