@@ -17,7 +17,7 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 - 3D city model
 
 <br>
-<p align="center"><img src="img//buuilding_model.PNG" width=70%></img></p>
+<p align="center"><img src="img//building_model.PNG" width=70%></img></p>
 
 
 <br>
