@@ -4,7 +4,7 @@ This code
 <br>
 
 ## Daylight Factor definition:
-The Daylight Factor is defined as 
+The Daylight Factor is defined as the percentage ratio of the illuminance in a room compared to the illuminance on a horizontal plane under an unobstructed hemisphere with an overcast sky.
 <br>
 <br>
 
