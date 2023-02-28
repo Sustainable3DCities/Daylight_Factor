@@ -1,5 +1,5 @@
 # Daylight Factor (DF) computation
-This code 
+The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors (ground floor to 5th floor). The code also calculates the min and max DF-values of a room along with the % of the floor area that complies to the daylight requirement stated in the Swedish legislation (DF > 1%). This implementation considers the effect of including or excluding building facade geometries (e.g. balconies, balcony railings, etc.) that may obstruct daylight access in densily built urban environments. Finally, this implementation also takes into consideration how using different building facade materials and colours affects daylight access.
 <br>
 <br>
 
@@ -25,7 +25,7 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 
 ## Requirements:
 
-- An installed version of Rhino 7 with the following tools:
+- An installed version of [Rhino 7](https://www.rhino3d.com/) with the following tools:
   - [Climate Studio](https://www.solemma.com/climatestudio?gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8mMBqtiBLklABOnztZ7fa2CbLVZGWax759uG0MbsUMTqEaSxicNspUaAr9SEALw_wcB)
 
 
