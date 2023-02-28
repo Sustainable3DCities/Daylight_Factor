@@ -1,5 +1,5 @@
 # Daylight Factor (DF) computation
-The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors (ground floor to 5th floor). The code also calculates the min and max DF-values of a room along with the % of the floor area that complies to the daylight requirement stated in the Swedish legislation (DF > 1%). This implementation considers the effect of including or excluding building facade geometries (e.g. balconies, balcony railings, etc.) that may obstruct daylight access in densily built urban environments. Finally, this implementation also takes into consideration how using different building facade materials and colours affects daylight access.
+The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors (ground floor to 5th floor). The code also calculates the min and max DF-values of a room along with the % of the floor area that complies to the daylight requirement stated in the [Swedish legislation (DF > 1%)](https://www.boverket.se/globalassets/publikationer/dokument/2019/bbr-2011-6-tom-2018-4-english-2.pdf). This implementation considers the effect of including or excluding building facade geometries (e.g. balconies, balcony railings, etc.) that may obstruct daylight access in densily built urban environments. Finally, this implementation also takes into consideration how using different building facade materials and colours affects daylight access.
 <br>
 <br>
 
@@ -14,7 +14,7 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 <br>
 
 ## Input data:
-- 3D city model including detailed indoor information (equivalent to CityGML LOD4) like e.g. floor surface, windows, ceiling, etc. 
+- 3D city model including detailed building exterior and interior information (equivalent to CityGML LOD4) like e.g. floor surface, windows, room ceiling, balconies, balcony railings, etc. 
 
 <br>
 <p align="center"><img src="img//building_model.PNG" width=70%></img></p>
