@@ -1,10 +1,12 @@
 # Daylight Factor (DF) computation
-The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors (ground floor to 5th floor). The code also calculates the min and max DF-values of a room along with the % of the floor area that complies to the daylight requirement stated in the [Swedish legislation (DF > 1%)](https://www.boverket.se/globalassets/publikationer/dokument/2019/bbr-2011-6-tom-2018-4-english-2.pdf). This implementation considers the effect of including or excluding building facade geometries (e.g. balconies, balcony railings, etc.) that may obstruct daylight access in densily built urban environments. Finally, this implementation also takes into consideration how using different building facade materials and colours affects daylight access.
+The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors. 
+
 <br>
 <br>
 
 ## Daylight Factor definition:
 The Daylight Factor is defined as the percentage ratio of the illuminance in a room compared to the illuminance on a horizontal plane under an unobstructed hemisphere with an overcast sky (Dubois et al., 2019).
+
 <br>
 <br>
 
@@ -33,7 +35,15 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 <br>
 
 ## Workflow:
+The process depicted in this workflow computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors. The aforementioned process also calculates the min and max DF-values of a room along with the % of the floor area that complies to the daylight requirement stated in the [Swedish legislation (DF > 1%)](https://www.boverket.se/globalassets/publikationer/dokument/2019/bbr-2011-6-tom-2018-4-english-2.pdf). This implementation considers the effect of including or excluding building facade geometries (e.g. balconies, balcony railings, etc.) that may obstruct daylight access in densily built urban environments. Finally, this implementation also takes into consideration how using different building facade materials and colours affects daylight access.
 
+<br>
+
+**Step 1:** Add the geometries of the room (walls, ceiling, floor, windows, eaves) <br><br>
+**Step 2:** <br><br>
+
+
+A slider is used to shift the position of the grid of points over which the DF-computation is performed from floor to floor. The default height of every floor is set to 2.79m.  
 <img src="img//DF_gh_flowchart.png"></img>
 
 <br>
