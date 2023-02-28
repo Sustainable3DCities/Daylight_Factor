@@ -14,7 +14,7 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 <br>
 
 ## Input data:
-- 3D city model
+- 3D city model including detailed indoor information (equivalent to CityGML LOD4) like e.g. floor surface, windows, ceiling, etc. 
 
 <br>
 <p align="center"><img src="img//building_model.PNG" width=70%></img></p>
