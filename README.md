@@ -50,7 +50,16 @@ The process depicted in this workflow computes the mean & median Daylight Factor
 <ins><b>Step 9:</ins></b> Add Climate Studio *DaylightModel* to prepare the scene for running the DF daylight simulation.<br><br>
 <ins><b>Step 10:</ins></b> Add a Climate Studio *Daylight* module and select *Daylight Factor* as the chosen standard to run the corresponding daylight simulation.<br><br>
 <ins><b>Step 11:</ins></b> Add a *RUN-button* to control the execution of the DF-computation. <br><br>
-<ins><b>Step 12:</ins></b> <br><br>
+<ins><b>Step 12:</ins></b> Add a Climate Studio *CSR Result* module to capture the DF-values of the gridpoints and obtain the median and mean value. <br><br>
+<ins><b>Step 13:</ins></b> Add a Climate Studio *PreviewGrid* module to make the DF-value results visible in Rhino. <br><br>
+<ins><b>Step 14:</ins></b> Add a Climate Studio *Extract* sensor grid data module, to get the gridpoint DF-values. <br><br>
+<ins><b>Step 15:</ins></b> Add a *Multiplication* module to get the DF-values expressed as percentages instead of decimal values (e.g. 2.3% instead of 0.023)<br><br>
+<ins><b>Step 16:</ins></b> Add a *Bounds* module to obtain the min and max DF-values computed for the current execution. <br><br>
+<ins><b>Step 17:</ins></b> Add a *Larger* module to filter out gridpoints with DF-values lower than 1%. <br><br>
+<ins><b>Step 18:</ins></b> Add a *DeGrid* module to obtain the Sensor Areas of every grid. If we sum up all the sensor areas we get the total floor area of the room. <br><br> 
+<ins><b>Step 19:</ins></b> Add a *Cull* module and use the list of sensor points whose DF<1% and the list of sensor area per gridpoint as input to filter out the sensor areas of the gridpoints whose DF<1%. <br><br> 
+<ins><b>Step 20:</ins></b> Add a *MassAddition* module to sum uo the sensor areas of all gridpoints whose DF>=1%. <br><br> 
+<ins><b>Step 21:</ins></b> Add an *Area* module to compute the total floor area in m$_2$
 
 <img src="img//DF_gh_flowchart.png"></img>
 
@@ -67,10 +76,13 @@ The computed Daylight Factor for every point in the grid is stored in
 <br>
 
 
+
 ## References:
 Dubois, M-C., Gentile, N., Laike, T., Bournas, I., & Alenius, M. (2019). Daylighting and lighting under a Nordic sky. (First ed.) Studentlitteratur AB. 
+
 <br>
 <br>
+
 
 
 ## License
