@@ -1,5 +1,5 @@
 # Daylight Factor (DF) computation
-The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors. 
+The code file stored in this repository computes the mean & median Daylight Factor values over a grid of points (0.2m resolution) placed 0.8m above the floor area of a living room on different floors. The code is to be used to examine the significance of including or excluding facade geometries (e.g. balcony and balcony railings) in daylight simulations such as the DF. It can also be used to test the significance of including exact information on the material and colour of building facades in the computation of the DF daylight metric. The point here is that different materials/colours have varying spectral properties and reflect sunlight differently, something that may affect the daylight access of rooms in densily built urban environments.
 
 <br>
 <br>
@@ -18,9 +18,12 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 The DF is used in many official daylight-regulating documents as it is easy to calculate and because the results are easily communicated and understood  within a group of people working on the same project. However, DF has limitations when the shape of a room is irregular or when it includes windows on more than one facades (Bournas & Dubois, 2018). To overcome this obstacle, researchers have intoduced the Median Daylight Factor that is calculating the DF over a grid of evenly spaced sensor points (Mardaljevic & Christoffersen, 2017). 
 
 <br>
-<br>
 
 <p align="center"><img src="img//median_DF.png" width=70%></img></p>
+
+<br>
+
+DFp has been shown to correlate strongly with the DFmedian across the room area, which indicates that complying with this criterion is equivalent to achieving a DFmedian of 1% over 50% of the room area (Bournas, 2020). European recommendations regarding appropriate internal illuminance levels have been found to be equivalent to a DFmedian of 2.1%  (Mardaljevic & Christoffersen, 2013)
 
 <br>
 <br>
