@@ -15,6 +15,16 @@ The Daylight Factor is defined as the percentage ratio of the illuminance in a r
 <br>
 <br>
 
+The DF is used in many official daylight-regulating documents as it is easy to calculate and because the results are easily communicated and understood  within a group of people working on the same project. However, DF has limitations when the shape of a room is irregular or when it includes windows on more than one facades (Bournas & Dubois, 2018). To overcome this obstacle, researchers have intoduced the Median Daylight Factor that is calculating the DF over a grid of evenly spaced sensor points (Mardaljevic & Christoffersen, 2017). 
+
+<br>
+<br>
+
+<p align="center"><img src="img//median_DF.png" width=70%></img></p>
+
+<br>
+<br>
+
 ## Input data:
 - 3D city model including detailed building exterior and interior information (equivalent to [CityGML LOD4](https://www.sciencedirect.com/science/article/pii/S0198971516300436?via%3Dihub)) like e.g. floor surface, windows, room ceiling, balconies, balcony railings, etc. 
 
