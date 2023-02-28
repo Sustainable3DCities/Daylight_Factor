@@ -39,8 +39,8 @@ The process depicted in this workflow computes the mean & median Daylight Factor
 
 <br>
 
-**Step 1:** Add the geometries of the room (walls, ceiling, floor, windows, eaves) <br><br>
-**Step 2:** <br><br>
+<u><b>Step 1:</u></b> Add the geometries of the room (walls, ceiling, floor, windows, eaves) <br><br>
+<u><b>Step 2:</u></b> Add the geometries of the obstructions (e.g. ground, building facades of surrounding buildings, balconies of surrounding buildings, balcony railings of surrounding buildings) <br><br>
 
 
 A slider is used to shift the position of the grid of points over which the DF-computation is performed from floor to floor. The default height of every floor is set to 2.79m.  
