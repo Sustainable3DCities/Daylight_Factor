@@ -39,11 +39,16 @@ The process depicted in this workflow computes the mean & median Daylight Factor
 
 <br>
 
-<ins><b>Step 1:</ins></b> Add the geometries of the room (walls, ceiling, floor, windows, eaves) <br><br>
-<ins><b>Step 2:</ins></b> Add the geometries of the obstructions (e.g. ground, building facades of surrounding buildings, balconies of surrounding buildings, balcony railings of surrounding buildings) <br><br>
+<ins><b>Step 1:</ins></b> Add the geometries (Geometry Pipeline) of the room (walls, ceiling, floor, windows, eaves) <br><br>
+<ins><b>Step 2:</ins></b> Add the geometries (Geometry Pipeline) of the obstructions (e.g. ground, building facades of surrounding buildings, balconies of surrounding buildings, balcony railings of surrounding buildings) <br><br>
+<ins><b>Step 3:</ins></b> Add a slider and a panel with the standard height value of a floor (2.79m). Include a multiplier to combine the slider and the floor height values to obtain the elevation coordinates (z-coord) of the different room-related geometries from floor to floor. <br><br>
+<ins><b>Step 4:</ins></b> Add one Climate Studio *LightingMaterial* module per obstructing geometry to pick an appropriate material and colour with specific spectral properties. <br><br>
+<ins><b>Step 5:</ins></b> Add one Climate Studio *LightingMaterial* module for every room-related geometry and pick an appropriate material and colour.<br><br>
+<ins><b>Step 6:</ins></b> Add a Climate Studio *SceneLayer* module to construct a Scene Layer for daylight simulation, one for every geometry.<br><br>
+<ins><b>Step 7:</ins></b>
 
 
-A slider is used to shift the position of the grid of points over which the DF-computation is performed from floor to floor. The default height of every floor is set to 2.79m.  
+
 <img src="img//DF_gh_flowchart.png"></img>
 
 <br>
