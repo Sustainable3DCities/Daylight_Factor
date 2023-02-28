@@ -49,7 +49,7 @@ The process depicted in this workflow computes the mean & median Daylight Factor
 <ins><b>Step 8:</ins></b> Add a *Boolean Toggle* in combination with two *Cull Pattern* modules to control when balcony and balcony railing geometries are to be included as obstructions in the DF-computation and when not. <br><br>
 <ins><b>Step 9:</ins></b> Add Climate Studio *DaylightModel* to prepare the scene for running the DF daylight simulation.<br><br>
 <ins><b>Step 10:</ins></b> Add a Climate Studio *Daylight* module and select *Daylight Factor* as the chosen standard to run the corresponding daylight simulation.<br><br>
-<ins><b>Step 11:</ins></b> Add a RUN-button to control the execution of the DF-computation. <br><br>
+<ins><b>Step 11:</ins></b> Add a *RUN-button* to control the execution of the DF-computation. <br><br>
 <ins><b>Step 12:</ins></b> <br><br>
 
 <img src="img//DF_gh_flowchart.png"></img>
