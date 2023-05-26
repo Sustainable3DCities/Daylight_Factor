@@ -117,7 +117,7 @@ Mardaljevic, J., & Christoffersen, J. (2017). ‘Climate connectivity’ in the 
 
 
 ## License
-Copyright 2023 Sustainable3DCities <br><br><br>
+Copyright 2023 Karolina Pantazatou, Lund University <br><br><br>
 The 3-Clause BSD License <br>
 https://opensource.org/licenses/BSD-3-Clause <br>
 <br><br><br>
